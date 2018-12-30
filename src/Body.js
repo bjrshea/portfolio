@@ -1,9 +1,10 @@
 import React from 'react';
+import mountains from './mountains.svg';
 
 function Body() {
   return(
     <div>
-      <h1>Body</h1>
+      <img src={mountains}/>
     </div>
   );
 }
