@@ -1,6 +1,8 @@
 import React from 'react';
 import mountains from './assets/images/mountains.svg';
 import cloud from './assets/images/cloud.png';
+import balloon1 from './assets/images/balloon1.svg';
+import balloon2 from './assets/images/balloon2.svg';
 
 function Body() {
   return(
@@ -13,19 +15,19 @@ function Body() {
         .cloud:nth-child(1) {
           opacity: 0.4;
           width: 120px;
-          height: 60px;
+          height: 70px;
           animation: blow 100s linear infinite;
         }
         .cloud:nth-child(2) {
           opacity: 0.6;
           width: 140px;
-          height: 70px;
+          height: 80px;
           animation: blow 90s linear infinite reverse;
         }
         .cloud:nth-child(3) {
           opacity: 0.8;
           width: 180px;
-          height: 90px;
+          height: 100px;
           animation: blow 75s linear infinite;
         }
         @keyframes blow {
@@ -38,9 +40,13 @@ function Body() {
           width: 100%;
           height: auto;
         }
-        img {
+        #mountain {
           width: 100%;
           height: 100%;
+        }
+        .balloon {
+          width: 45px;
+          height: 67px;
         }
       `}</style>
       <div className="clouds">
@@ -49,7 +55,11 @@ function Body() {
         <img className="cloud" src={cloud} alt="cloud"/>
       </div>
       <div id="mountains">
-        <img src={mountains}/>
+        <img id="mountain" src={mountains}/>
+      </div>
+      <div className="balloons">
+        <img className="balloon" src={balloon1} alt="balloon"/>
+        <img className="balloon" src={balloon2} alt="balloon"/>
       </div>
     </div>
   );
