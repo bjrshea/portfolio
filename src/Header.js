@@ -19,7 +19,7 @@ function Header() {
       `}</style>
       <h3>About</h3>
       <h3 id="spacer">|</h3>
-      <h3 id="my-work">My Work</h3>
+      <h3 id="my-work">Portfolio</h3>
     </div>
   );
 }

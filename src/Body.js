@@ -51,6 +51,21 @@ function Body() {
           from{left: -180px}
           to{left: 100%}
         }
+        #intro-box {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          text-align: center;
+          min-height: 70vh;
+        }
+        #intro-1 {
+          font-family: 'Amatic SC', cursive;
+          font-size: 50px;
+        }
+        #intro-2 {
+          font-family: 'Andika', sans-serif;
+          margin-top: 5px;
+        }
         #mountains {
           position: fixed;
           bottom: 0;
@@ -90,6 +105,10 @@ function Body() {
         <img className="cloud" src={cloud} alt="cloud"/>
         <img className="cloud" src={cloud} alt="cloud"/>
         <img className="cloud" src={cloud} alt="cloud"/>
+      </div>
+      <div id="intro-box">
+        <h1 id="intro-1">Hi, my name is Brendan</h1>
+        <h3 id="intro-2">and I'm a web developer.</h3>
       </div>
       <div id="mountains">
         <img id="mountain" src={mountains}/>
