@@ -3,6 +3,7 @@ import mountains from './assets/images/mountains.svg';
 import cloud from './assets/images/cloud.png';
 import balloon1 from './assets/images/balloon1.svg';
 import balloon2 from './assets/images/balloon2.svg';
+import balloon3 from './assets/images/balloon3.svg';
 
 function Body() {
   return(
@@ -31,7 +32,7 @@ function Body() {
           opacity: 0.7;
           width: 180px;
           height: 100px;
-          animation: blow 70s linear reverse;
+          animation: blow 70s linear infinite reverse;
         }
         .cloud:nth-child(4) {
           top: 3%;
@@ -61,10 +62,12 @@ function Body() {
         #intro-1 {
           font-family: 'Amatic SC', cursive;
           font-size: 50px;
+          color: #293448;
         }
         #intro-2 {
           font-family: 'Andika', sans-serif;
-          margin-top: 5px;
+          margin-top: 15px;
+          color: #072251;
         }
         #mountains {
           position: fixed;
@@ -83,16 +86,24 @@ function Body() {
         .balloon {
           z-index: -2;
           position: absolute;
-          width: 45px;
-          height: 67px;
         }
         .balloon:nth-child(1) {
-          animation: fly 60s linear infinite;
+          width: 40px;
+          height: 59px;
+          animation: fly 58s linear infinite;
           left: 10%;
         }
         .balloon:nth-child(2) {
+          width: 45px;
+          height: 67px;
           animation: fly 40s linear infinite;
-          right: 30%;
+          right: 20%;
+        }
+        .balloon:nth-child(3) {
+          width: 35px;
+          height: 52px;
+          animation: fly 80s linear infinite;
+          left: 35%;
         }
         @keyframes fly {
           from{bottom: -40px}
@@ -116,6 +127,7 @@ function Body() {
       <div className="balloons">
         <img className="balloon" src={balloon1} alt="balloon"/>
         <img className="balloon" src={balloon2} alt="balloon"/>
+        <img className="balloon" src={balloon3} alt="balloon"/>
       </div>
     </div>
   );
