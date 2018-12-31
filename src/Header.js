@@ -8,6 +8,7 @@ function Header() {
           display: flex;
           justify-content: flex-end;
           margin-top: 10px;
+          font-family: 'Andika', sans-serif;
         }
         #spacer {
           margin: 0 5px;
@@ -16,9 +17,9 @@ function Header() {
           margin-right: 20px;
         }
       `}</style>
-      <h2>About</h2>
-      <h2 id="spacer">|</h2>
-      <h2 id="my-work">My Work</h2>
+      <h3>About</h3>
+      <h3 id="spacer">|</h3>
+      <h3 id="my-work">My Work</h3>
     </div>
   );
 }
