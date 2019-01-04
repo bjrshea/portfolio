@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import Header from './Header';
 import Body from './Body';
-import Footer from './Footer';
+import About from './About';
+import Portfolio from './Portfolio';
+import Contact from './Contact';
 import WebFont from 'webfontloader';
-import { Router, Route, Switch } from 'react-router'
-
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 WebFont.load({
   google: {
     families: ['Amatic SC', 'cursive', 'Andika', 'sans-serif']
@@ -14,11 +15,15 @@ WebFont.load({
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Header/>
-        <Body/>
-
-      </div>
+      <Router>
+        <div className="App">
+          <Header/>
+          <Route exact path="/" component={Body} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/contact" component={Contact} />
+        </div>
+      </Router>
     );
   }
 }
