@@ -96,13 +96,13 @@ function Body() {
         .balloon:nth-child(2) {
           width: 45px;
           height: 67px;
-          animation: fly 40s linear infinite;
+          animation: fly 50s linear infinite;
           right: 20%;
         }
         .balloon:nth-child(3) {
           width: 35px;
           height: 52px;
-          animation: fly 80s linear infinite;
+          animation: fly 70s linear infinite;
           left: 35%;
         }
         @keyframes fly {

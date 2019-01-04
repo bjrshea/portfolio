@@ -3,6 +3,7 @@ import Header from './Header';
 import Body from './Body';
 import Footer from './Footer';
 import WebFont from 'webfontloader';
+import { Router, Route, Switch } from 'react-router'
 
 WebFont.load({
   google: {
@@ -16,6 +17,7 @@ class App extends Component {
       <div className="App">
         <Header/>
         <Body/>
+
       </div>
     );
   }
