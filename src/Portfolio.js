@@ -1,40 +1,51 @@
 import React from 'react';
-import desktop from './assets/images/desktop.svg'
-import laptop from './assets/images/laptop.svg'
+import desktopHowl from './assets/images/howl-desktop.png'
+import laptopHowl from './assets/images/howl-laptop.png'
+import desktopSqueeze from './assets/images/squeeze-desktop.png'
+import laptopSqueeze from './assets/images/squeeze-laptop.png'
 import phone from './assets/images/phone.svg'
+
 
 function Portfolio() {
   return(
     <div id="portfolio-box">
       <style>{`
         #portfolio-box {
-          border: 2px solid pink;
         }
         .projects {
+          position: relative;
           display: flex;
-          border: 2px solid blue;
           justify-content: center;
+          margin-bottom: 15px;
+        }
+        .desktop {
+          margin-bottom: 30px;
         }
         img {
           display: block;
           width: auto;
           height: auto;
         }
+        img:hover {
+          cursor: pointer;
+        }
+        img:nth-child(2) {
+          position: absolute;
+          bottom: 0;
+          left: 20%;
+        }
       `}</style>
       <div className="projects" id="project-1">
-        <img src={desktop} alt="Desktop image" />
-        <img src={laptop} alt="Laptop image" />
-        <img src={phone} alt="Phone image" />
+        <img className="desktop" src={desktopHowl} alt="Desktop image" />
+        <img src={laptopHowl} alt="Laptop image" />
       </div>
       <div className="projects" id="project-2">
-        <img src={desktop} alt="Desktop image" />
-        <img src={laptop} alt="Laptop image" />
-        <img src={phone} alt="Phone image" />
+        <img className="desktop" src={desktopSqueeze} alt="Desktop image" />
+        <img src={laptopSqueeze} alt="Laptop image" />
       </div>
       <div className="projects" id="project-3">
-        <img src={desktop} alt="Desktop image" />
-        <img src={laptop} alt="Laptop image" />
-        <img src={phone} alt="Phone image" />
+        <img className="desktop" src={desktopHowl} alt="Desktop image" />
+        <img src={laptopHowl} alt="Laptop image" />
       </div>
     </div>
   );

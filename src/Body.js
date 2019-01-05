@@ -144,8 +144,8 @@ function Body() {
         <h1 id="intro-1">Hi, my name is Brendan</h1>
         <h3 id="intro-2">and I'm a web developer.</h3>
         <div id="links">
-          <a href="https://github.com/bjrshea"><img className="link" src={github} alt="Link to Github" /></a>
-          <a href="https://www.linkedin.com/in/brendanjshea/"><img className="link" src={linkedin} alt="Link to LinkedIn" /></a>
+          <a href="https://github.com/bjrshea"><img className="link" src={github} alt="Link to Github"/></a>
+          <a href="https://www.linkedin.com/in/brendanjshea/"><img className="link" src={linkedin} alt="Link to LinkedIn"/></a>
         </div>
       </div>
       <div id="mountains">
