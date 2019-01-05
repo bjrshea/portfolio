@@ -2,26 +2,37 @@ import React from 'react';
 
 function Contact() {
   return(
-    <div>
+    <div id="form-box">
       <style>{`
+        #form-box {
+          
+        }
         .form {
           margin: 10px auto;
           width: 350px;
           padding: 1em;
-          border: 1px solid #CCC;
+          border: 1px solid #EAD2AC;
           border-radius: 1em;
+          background-color: #EAD2AC;
+        }
+        h2 {
+          text-align: center;
+          margin-bottom: 20px;
         }
         input {
           border: 1px solid #CCC;
           border-radius: 5px;
+          padding: 5px 0;
+          margin: 10px 0;
+          padding-left: 5px;
         }
         textarea {
-          margin-top: 20px;
-          margin-bottom: 20px;
           border: 1px solid #CCC;
           border-radius: 5px;
           width: 93%;
-          height: 30px;
+          height: 60px;
+          margin: 10px 0;
+          padding: 5px;
         }
         label {
           margin-right: 10px;
@@ -39,7 +50,8 @@ function Contact() {
         <label>Company:</label>
         <input default="" name="company"/>
         <br/>
-        <label>Tell us about your event:</label>
+        <br/>
+        <label>Tell me a little about you!</label>
         <br/>
         <textarea default="" name="details"></textarea>
         <br/>

@@ -7,8 +7,11 @@ import balloon3 from './assets/images/balloon3.svg';
 
 function Body() {
   return(
-    <div id="body">
+    <div id="body-box">
       <style>{`
+        #body-box {
+          overflow: hidden;
+        }
         .cloud {
           position: absolute;
           z-index: -1;
