@@ -25,7 +25,7 @@ function Header() {
         #header-right {
           display: flex;
           margin-top: 10px;
-          font-family: 'Andika', sans-serif;
+          font-family: arial;
           color: #072251;
         }
         a {
@@ -44,14 +44,10 @@ function Header() {
         #spacer:hover {
           cursor: default;
         }
-        #portfolio:hover {
-          cursor: pointer;
-          color: #305178;
-        }
-        #contact {
+        #portfolio {
           margin-right: 20px;
         }
-        #contact:hover {
+        #portfolio:hover {
           cursor: pointer;
           color: #305178;
         }
@@ -63,8 +59,6 @@ function Header() {
         <h3><Link to="/about"><span id="about">About</span></Link></h3>
         <h3 id="spacer">|</h3>
         <h3><Link to="/portfolio"><span id="portfolio">Portfolio</span></Link></h3>
-        <h3 id="spacer">|</h3>
-        <h3><Link to="/contact"><span id="contact">Contact</span></Link></h3>
       </div>
     </div>
   );

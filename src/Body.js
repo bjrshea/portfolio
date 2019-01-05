@@ -1,4 +1,7 @@
 import React from 'react';
+import github from './assets/images/github.svg'
+import google from './assets/images/google.png'
+import linkedin from './assets/images/linkedin.png'
 import mountains from './assets/images/mountains.svg';
 import cloud from './assets/images/cloud.png';
 import balloon1 from './assets/images/balloon1.svg';
@@ -68,9 +71,22 @@ function Body() {
           color: #293448;
         }
         #intro-2 {
-          font-family: 'Andika', sans-serif;
-          margin-top: 15px;
+          font-family: arial;
+          margin-top: 10px;
           color: #072251;
+        }
+        #links {
+          display: flex;
+          justify-content: center;
+          margin-top: 15px;
+        }
+        .link {
+          width: 35px;
+          height: 35px;
+          margin-right: 10px;
+        }
+        .link:nth-child(3) {
+          margin-right: 0px;
         }
         #mountains {
           position: fixed;
@@ -81,6 +97,7 @@ function Body() {
         #mountain {
           width: 100%;
           height: 100%;
+          max-height: 580px;
         }
         .balloons {
           display: flex;
@@ -123,6 +140,11 @@ function Body() {
       <div id="intro-box">
         <h1 id="intro-1">Hi, my name is Brendan</h1>
         <h3 id="intro-2">and I'm a web developer.</h3>
+        <div id="links">
+          <img className="link" src={github} alt="Link to Github" />
+          <img className="link" src={google} alt="Link to Google" />
+          <img className="link" src={linkedin} alt="Link to LinkedIn" />
+        </div>
       </div>
       <div id="mountains">
         <img id="mountain" src={mountains}/>
