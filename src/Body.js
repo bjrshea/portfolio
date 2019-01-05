@@ -85,6 +85,9 @@ function Body() {
           height: 35px;
           margin-right: 10px;
         }
+        .link:hover {
+          cursor: pointer;
+        }
         .link:nth-child(3) {
           margin-right: 0px;
         }
@@ -141,9 +144,8 @@ function Body() {
         <h1 id="intro-1">Hi, my name is Brendan</h1>
         <h3 id="intro-2">and I'm a web developer.</h3>
         <div id="links">
-          <img className="link" src={github} alt="Link to Github" />
-          <img className="link" src={google} alt="Link to Google" />
-          <img className="link" src={linkedin} alt="Link to LinkedIn" />
+          <a href="https://github.com/bjrshea"><img className="link" src={github} alt="Link to Github" /></a>
+          <a href="https://www.linkedin.com/in/brendanjshea/"><img className="link" src={linkedin} alt="Link to LinkedIn" /></a>
         </div>
       </div>
       <div id="mountains">
