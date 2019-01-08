@@ -3,6 +3,8 @@ import desktopHowl from './assets/images/howl-desktop.png'
 import laptopHowl from './assets/images/howl-laptop.png'
 import desktopSqueeze from './assets/images/squeeze-desktop.png'
 import laptopSqueeze from './assets/images/squeeze-laptop.png'
+import desktopThrillist from './assets/images/thrillist-desktop.png'
+import laptopThrillist from './assets/images/thrillist-laptop.png'
 import phone from './assets/images/phone.svg'
 
 
@@ -11,12 +13,26 @@ function Portfolio() {
     <div id="portfolio-box">
       <style>{`
         #portfolio-box {
+          margin-top: 125px;
         }
         .projects {
           position: relative;
           display: flex;
-          justify-content: center;
-          margin-bottom: 15px;
+          margin-bottom: 125px;
+        }
+        #project-1 {
+          justify-content: flex-end;
+          margin-right: 3%;
+        }
+        #project-2 {
+          justify-content: flex-start;
+          margin-left: 3%;
+        }
+        #project-3 {
+          justify-content: flex-end;
+          margin-right: 3%;
+        }
+        .project-images {
         }
         .desktop {
           margin-bottom: 30px;
@@ -26,26 +42,28 @@ function Portfolio() {
           width: auto;
           height: auto;
         }
-        img:hover {
-          cursor: pointer;
-        }
-        img:nth-child(2) {
+        a:nth-child(2) {
           position: absolute;
           bottom: 0;
-          left: 20%;
         }
       `}</style>
       <div className="projects" id="project-1">
-        <img className="desktop" src={desktopHowl} alt="Desktop image" />
-        <img src={laptopHowl} alt="Laptop image" />
+        <div className="project-images">
+          <a href="https://github.com/bjrshea/howl"><img className="desktop" src={desktopHowl} alt="Desktop image"/></a>
+          <a href="https://github.com/bjrshea/howl"><img src={laptopHowl} alt="Laptop image"/></a>
+        </div>
       </div>
       <div className="projects" id="project-2">
-        <img className="desktop" src={desktopSqueeze} alt="Desktop image" />
-        <img src={laptopSqueeze} alt="Laptop image" />
+        <div className="project-images">
+          <a href="https://github.com/bjrshea/squeeze-burger"><img className="desktop" src={desktopSqueeze} alt="Desktop image"/></a>
+          <a href="https://github.com/bjrshea/squeeze-burger"><img src={laptopSqueeze} alt="Laptop image"/></a>
+        </div>
       </div>
       <div className="projects" id="project-3">
-        <img className="desktop" src={desktopHowl} alt="Desktop image" />
-        <img src={laptopHowl} alt="Laptop image" />
+        <div className="project-images">
+          <a href="https://github.com/bjrshea/thrillist"><img className="desktop" src={desktopThrillist} alt="Desktop image"/></a>
+          <a href="https://github.com/bjrshea/thrillist"><img src={laptopThrillist} alt="Laptop image"/></a>
+        </div>
       </div>
     </div>
   );

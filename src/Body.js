@@ -1,5 +1,5 @@
 import React from 'react';
-import github from './assets/images/github.svg'
+import github from './assets/images/github.png'
 import google from './assets/images/google.png'
 import linkedin from './assets/images/linkedin.png'
 import mountains from './assets/images/mountains.svg';
@@ -77,6 +77,7 @@ function Body() {
         }
         #links {
           display: flex;
+          z-index: 1;
           justify-content: center;
           margin-top: 15px;
         }
@@ -84,12 +85,6 @@ function Body() {
           width: 35px;
           height: 35px;
           margin-right: 10px;
-        }
-        .link:hover {
-          cursor: pointer;
-        }
-        .link:nth-child(3) {
-          margin-right: 0px;
         }
         #mountains {
           position: fixed;
@@ -159,5 +154,4 @@ function Body() {
     </div>
   );
 }
-
 export default Body;
