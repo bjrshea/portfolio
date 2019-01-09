@@ -11,34 +11,42 @@ function Portfolio() {
           border: solid 2px pink;
         }
         .projects {
-          position: relative;
           display: flex;
+          justify-content: space-between;
           margin: 125px 0;
           border: solid 2px yellow;
+        }
+        img {
+          display: block;
+          width: 100%;
+          height: auto;
         }
       `}</style>
       <div className="projects" id="project-1">
         <div className="description">
-
+          <h2>Howl</h2>
+          <p></p>
         </div>
         <div className="images">
-          <img src={howl} alt="Pictures of Howl"/>
+          <a href="https://github.com/bjrshea/howl"><img src={howl} alt="Pictures of Howl"/></a>
         </div>
       </div>
       <div className="projects" id="project-2">
         <div className="description">
-
+          <h2>Squeeze Burger</h2>
+          <p></p>
         </div>
         <div className="images">
-          <img src={squeeze} alt="Pictures of Squeeze Burger"/>
+          <a href="https://github.com/bjrshea/squeeze-burger"><img src={squeeze} alt="Pictures of Squeeze Burger"/></a>
         </div>
       </div>
       <div className="projects" id="project-3">
         <div className="description">
-
+          <h2>Thrillist</h2>
+          <p></p>
         </div>
         <div className="images">
-          <img src={thrillist} alt="Pictures of Thrillist"/>
+          <a href="https://github.com/bjrshea/thrillist"><img src={thrillist} alt="Pictures of Thrillist"/></a>
         </div>
       </div>
     </div>
