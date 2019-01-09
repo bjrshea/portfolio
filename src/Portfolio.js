@@ -1,71 +1,44 @@
 import React from 'react';
-import desktopHowl from './assets/images/howl-desktop.png'
-import laptopHowl from './assets/images/howl-laptop.png'
-import desktopSqueeze from './assets/images/squeeze-desktop.png'
-import laptopSqueeze from './assets/images/squeeze-laptop.png'
-import desktopThrillist from './assets/images/thrillist-desktop.png'
-import laptopThrillist from './assets/images/thrillist-laptop.png'
-import phone from './assets/images/phone.svg'
-
+import howl from './assets/images/howl.png'
+import squeeze from './assets/images/squeeze.png'
+import thrillist from './assets/images/thrillist.png'
 
 function Portfolio() {
   return(
     <div id="portfolio-box">
       <style>{`
         #portfolio-box {
-          margin-top: 125px;
+          border: solid 2px pink;
         }
         .projects {
           position: relative;
           display: flex;
-          margin-bottom: 125px;
-        }
-        #project-1 {
-          justify-content: flex-end;
-          margin-right: 3%;
-        }
-        #project-2 {
-          justify-content: flex-end;
-          margin-left: 3%;
-        }
-        #project-3 {
-          justify-content: flex-end;
-          margin-right: 3%;
-        }
-        .project-images {
-          border: 1px solid pink;
-          width: 42%;
-        }
-        img {
-          display: block;
-          width: 100%;
-          height: auto;
-        }
-        a:nth-child(2) {
-          position: absolute;
-          bottom: 0;
-        }
-        .desktop {
-          margin-left: 5%;
-          margin-bottom: 8%;
+          margin: 125px 0;
+          border: solid 2px yellow;
         }
       `}</style>
       <div className="projects" id="project-1">
-        <div className="project-images">
-          <a href="https://github.com/bjrshea/howl"><img className="desktop" src={desktopHowl} alt="Desktop image"/></a>
-          <a href="https://github.com/bjrshea/howl"><img id="laptop-1" src={laptopHowl} alt="Laptop image"/></a>
+        <div className="description">
+
+        </div>
+        <div className="images">
+          <img src={howl} alt="Pictures of Howl"/>
         </div>
       </div>
       <div className="projects" id="project-2">
-        <div className="project-images">
-          <a href="https://github.com/bjrshea/squeeze-burger"><img className="desktop" id="desktop-2" src={desktopSqueeze} alt="Desktop image"/></a>
-          <a href="https://github.com/bjrshea/squeeze-burger"><img id="laptop-2" src={laptopSqueeze} alt="Laptop image"/></a>
+        <div className="description">
+
+        </div>
+        <div className="images">
+          <img src={squeeze} alt="Pictures of Squeeze Burger"/>
         </div>
       </div>
       <div className="projects" id="project-3">
-        <div className="project-images">
-          <a href="https://github.com/bjrshea/thrillist"><img className="desktop" src={desktopThrillist} alt="Desktop image"/></a>
-          <a href="https://github.com/bjrshea/thrillist"><img id="laptop-3" src={laptopThrillist} alt="Laptop image"/></a>
+        <div className="description">
+
+        </div>
+        <div className="images">
+          <img src={thrillist} alt="Pictures of Thrillist"/>
         </div>
       </div>
     </div>

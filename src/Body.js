@@ -105,8 +105,8 @@ function Body() {
           position: absolute;
         }
         .balloon:nth-child(1) {
-          width: 40px;
-          height: 59px;
+          width: auto;
+          height: 20%;
           animation: fly 58s linear infinite;
           left: 10%;
         }
