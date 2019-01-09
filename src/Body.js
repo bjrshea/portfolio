@@ -94,7 +94,7 @@ function Body() {
         #mountain {
           width: 100%;
           height: 100%;
-          max-height: 550px;
+          max-height: 605px;
         }
         .balloons {
           display: flex;

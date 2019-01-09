@@ -25,7 +25,7 @@ function Portfolio() {
           margin-right: 3%;
         }
         #project-2 {
-          justify-content: flex-start;
+          justify-content: flex-end;
           margin-left: 3%;
         }
         #project-3 {
@@ -34,21 +34,20 @@ function Portfolio() {
         }
         .project-images {
           border: 1px solid pink;
-        }
-        .desktop {
-          margin-bottom: 30px;
+          width: 42%;
         }
         img {
           display: block;
-          width: auto;
+          width: 100%;
           height: auto;
         }
         a:nth-child(2) {
           position: absolute;
           bottom: 0;
         }
-        #laptop-1 {
-          margin-right: 30;
+        .desktop {
+          margin-left: 5%;
+          margin-bottom: 8%;
         }
       `}</style>
       <div className="projects" id="project-1">
@@ -59,7 +58,7 @@ function Portfolio() {
       </div>
       <div className="projects" id="project-2">
         <div className="project-images">
-          <a href="https://github.com/bjrshea/squeeze-burger"><img className="desktop" src={desktopSqueeze} alt="Desktop image"/></a>
+          <a href="https://github.com/bjrshea/squeeze-burger"><img className="desktop" id="desktop-2" src={desktopSqueeze} alt="Desktop image"/></a>
           <a href="https://github.com/bjrshea/squeeze-burger"><img id="laptop-2" src={laptopSqueeze} alt="Laptop image"/></a>
         </div>
       </div>
