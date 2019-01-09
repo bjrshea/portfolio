@@ -1,7 +1,6 @@
 import React from 'react';
-import github from './assets/images/github.png'
-import google from './assets/images/google.png'
-import linkedin from './assets/images/linkedin.png'
+import github from './assets/images/github.svg'
+import linkedin from './assets/images/linkedin.svg'
 import mountains from './assets/images/mountains.svg';
 import cloud from './assets/images/cloud.png';
 import balloon1 from './assets/images/balloon1.svg';
@@ -63,7 +62,7 @@ function Body() {
           flex-direction: column;
           justify-content: center;
           text-align: center;
-          min-height: 70vh;
+          min-height: 50vh;
         }
         #intro-1 {
           font-family: 'Amatic SC', cursive;
@@ -73,7 +72,7 @@ function Body() {
         #intro-2 {
           font-family: arial;
           margin-top: 10px;
-          color: #072251;
+          color: #293448;
         }
         #links {
           display: flex;
@@ -95,7 +94,7 @@ function Body() {
         #mountain {
           width: 100%;
           height: 100%;
-          max-height: 580px;
+          max-height: 550px;
         }
         .balloons {
           display: flex;

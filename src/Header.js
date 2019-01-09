@@ -26,17 +26,17 @@ function Header() {
           display: flex;
           margin-top: 10px;
           font-family: arial;
-          color: #072251;
+          color: #293448;
         }
         a {
           text-decoration: none;
         }
         a:visited {
-          color: #305178;
+          color: #293448;
         }
         #about:hover {
           cursor: pointer;
-          color: #305178;
+          color: #798190;
         }
         #spacer {
           margin: 0 5px;
@@ -49,7 +49,7 @@ function Header() {
         }
         #portfolio:hover {
           cursor: pointer;
-          color: #305178;
+          color: #798190;
         }
       `}</style>
       <div id="header-left">
