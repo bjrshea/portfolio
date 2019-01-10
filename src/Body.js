@@ -1,7 +1,7 @@
 import React from 'react';
 import github from './assets/images/github.svg'
 import linkedin from './assets/images/linkedin.svg'
-import mountains from './assets/images/mountains.svg';
+import mountains from './assets/images/mountains.png';
 import cloud from './assets/images/cloud.png';
 import balloon1 from './assets/images/balloon1.svg';
 import balloon2 from './assets/images/balloon2.svg';
@@ -23,35 +23,36 @@ function Body() {
           opacity: 0.4;
           width: 120px;
           height: 70px;
-          animation: blow 100s linear infinite;
+          animation: blow 130s linear infinite;
+          animation-delay: 20s;
         }
         .cloud:nth-child(2) {
           top: 8%;
           opacity: 0.6;
           width: 140px;
           height: 80px;
-          animation: blow 90s linear infinite reverse;
+          animation: blow 120s linear infinite reverse;
         }
         .cloud:nth-child(3) {
           top: 10%;
           opacity: 0.7;
           width: 180px;
           height: 100px;
-          animation: blow 70s linear infinite reverse;
+          animation: blow 105s linear infinite reverse;
         }
         .cloud:nth-child(4) {
           top: 3%;
           opacity: 0.8;
           width: 140px;
           height: 80px;
-          animation: blow 120s linear infinite;
+          animation: blow 150s linear infinite;
         }
         .cloud:nth-child(5) {
           top: 12%;
           opacity: 0.5;
           width: 160px;
           height: 90px;
-          animation: blow 80s linear infinite;
+          animation: blow 90s linear infinite;
         }
         @keyframes blow {
           from{left: -180px}
