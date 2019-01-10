@@ -25,7 +25,7 @@ function Header() {
         #header-right {
           display: flex;
           margin-top: 10px;
-          font-family: arial;
+          font-family: 'Lato', sans-serif;
           color: #293448;
         }
         a {

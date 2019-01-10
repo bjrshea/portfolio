@@ -71,7 +71,7 @@ function Body() {
           color: #293448;
         }
         #intro-2 {
-          font-family: arial;
+          font-family: 'Lato', sans-serif;
           margin-top: 10px;
           color: #293448;
         }
