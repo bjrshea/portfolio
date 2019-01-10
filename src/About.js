@@ -3,7 +3,13 @@ import React from 'react';
 function About() {
   return(
     <div>
-      <h1>About</h1>
+      <style>{`
+        h1, p {
+          font-family: 'Lato', sans-serif;
+          text-align: center
+        }
+      `}</style>
+      <h1>About Me</h1>
       <br/>
       <p>I'm passionate about building applications that are minimal and have value for its users. I believe in the notion that less is more, and I think it’s a developer’s duty to make programs that are clear and effortless to use.</p>
       <br/>

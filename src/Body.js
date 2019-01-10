@@ -66,13 +66,14 @@ function Body() {
           min-height: 50vh;
         }
         #intro-1 {
-          font-family: 'Amatic SC', cursive;
-          font-size: 50px;
+          font-family: 'Satisfy', cursive;
+          font-size: 3vw;
           color: #293448;
         }
         #intro-2 {
           font-family: 'Lato', sans-serif;
-          margin-top: 10px;
+          margin-top: 5px;
+          font-size: 1.5vw;
           color: #293448;
         }
         #links {

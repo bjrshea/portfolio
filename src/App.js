@@ -7,7 +7,7 @@ import WebFont from 'webfontloader';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 WebFont.load({
   google: {
-    families: ['Amatic SC', 'cursive', 'Andika', 'sans-serif', 'Lato', 'Montserrat']
+    families: ['Satisfy', 'cursive', 'Andika', 'sans-serif', 'Lato', 'Montserrat']
   }
 });
 
