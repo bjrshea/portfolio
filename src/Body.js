@@ -12,7 +12,6 @@ function Body() {
     <div id="body-box">
       <style>{`
         #body-box {
-          overflow: hidden;
         }
         .cloud {
           position: absolute;
@@ -108,20 +107,20 @@ function Body() {
         }
         .balloon:nth-child(1) {
           width: auto;
-          height: 20%;
-          animation: fly 58s linear infinite;
+          height: 10%;
+          animation: fly 55s linear 1 forwards;
           left: 10%;
         }
         .balloon:nth-child(2) {
-          width: 45px;
-          height: 67px;
-          animation: fly 50s linear infinite;
+          width: auto;
+          height: 8.5%;
+          animation: fly 63s linear 1 forwards;
           right: 20%;
         }
         .balloon:nth-child(3) {
-          width: 35px;
-          height: 52px;
-          animation: fly 70s linear infinite;
+          width: auto;
+          height: 7%;
+          animation: fly 70s linear 1 forwards;
           left: 35%;
         }
         @keyframes fly {
