@@ -16,11 +16,12 @@ function Body() {
         }
         #ufo {
           position: absolute;
+          top: 10%;
           left: -180px;
           z-index: -2;
           width: auto;
           height: 5%;
-          animation: blow 8s linear infinite forwards 70s;
+          animation: blow 8s linear 1 forwards 70s;
         }
         .cloud {
           position: absolute;
@@ -39,7 +40,7 @@ function Body() {
           opacity: 0.6;
           width: 140px;
           height: 80px;
-          animation: blow 120s linear infinite reverse;
+          animation: blow 130s linear infinite reverse;
         }
         .cloud:nth-child(3) {
           top: 10%;
