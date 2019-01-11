@@ -2,12 +2,32 @@ import React from 'react';
 import howl from './assets/images/howl.png'
 import squeeze from './assets/images/squeeze.png'
 import remoter from './assets/images/remoter.png'
+import briefcase from './assets/images/briefcase.png'
 
 function Portfolio() {
   return(
     <div id="portfolio-box">
       <style>{`
         #portfolio-box {
+          margin-top: 3%;
+        }
+        #portfolio-page-box {
+          height: 70vh;
+          background-color: #E2EFF0;
+        }
+        #portfolio-header {
+          font-family: 'Satisfy', cursive;
+          color: #293448;
+          text-align: center;
+          margin-bottom: 5%;
+          font-size: 3.5em;
+        }
+        #briefcase {
+          display: block;
+          margin-left: auto;
+        	margin-right: auto;
+          height: auto;
+          width: 20%;
         }
         .projects {
           display: flex;
@@ -15,14 +35,17 @@ function Portfolio() {
           margin: 2% 0;
           border-bottom: 1px solid #B7B5B3;
         }
-        .projects:nth-child(4) {
+        #project-1 {
+
+        }
+        #project-3 {
           border-bottom: none;
         }
         .description {
           margin-top: 1%;
           width: 50%;
         }
-        h1 {
+        .titles {
           font-family: 'Montserrat', sans-serif;
           margin-bottom: 3%;
           margin-left: 5%;
@@ -67,9 +90,13 @@ function Portfolio() {
           height: auto;
         }
       `}</style>
+      <div id="portfolio-page-box">
+        <h1 id="portfolio-header">Portfolio</h1>
+        <img id="briefcase" src={briefcase} alt="Picture of briefcase"/>
+      </div>
       <div className="projects" id="project-1">
         <div className="description">
-          <h1>Howl</h1>
+          <h1 className="titles" >Howl</h1>
           <p>One of my first introductions to an MVC framework! Howl is your one-stop shop for finding concerts, previewing artists, and booking tickets. This app is built using Angular and leverages mutliple API calls to dynamically diplay concert details and artist's songs.</p>
           <div className="buttons">
             <button>VISIT GITHUB</button>
@@ -81,21 +108,21 @@ function Portfolio() {
         </div>
       </div>
       <div className="projects" id="project-2">
+        <div className="images">
+          <a href="https://github.com/bjrshea/squeeze-burger"><img src={squeeze} alt="Pictures of Squeeze Burger"/></a>
+        </div>
         <div className="description">
-          <h1>Squeeze Burger</h1>
+          <h1 className="titles" >Squeeze Burger</h1>
           <p>A food truck locater for the Guy Fieri approved Squeeze Burger. This app was built in React-Redux to help the owners of Squeeze Burger let their customers know where the food truck will be on a given day. This app utilizes multiple API calls, Firebase OAuth, and EmailJS for client booking requests.</p>
           <div className="buttons">
             <button>VISIT GITHUB</button>
             <button className="TBA">COMING ONLINE SOON</button>
           </div>
         </div>
-        <div className="images">
-          <a href="https://github.com/bjrshea/squeeze-burger"><img src={squeeze} alt="Pictures of Squeeze Burger"/></a>
-        </div>
       </div>
       <div className="projects" id="project-3">
         <div className="description">
-          <h1>The Remoter</h1>
+          <h1 className="titles" >The Remoter</h1>
           <p>An app for a pseudo co-working space that I built during my learning UX/UI in programming school. The Remoter takes you on a journey through the entire web design process — from the beginning stages of wireframing and prototyping all the way to development.</p>
           <div className="buttons">
             <button>VISIT GITHUB</button>

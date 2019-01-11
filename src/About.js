@@ -4,9 +4,12 @@ function About() {
   return(
     <div>
       <style>{`
-        h1, p {
-          font-family: 'Lato', sans-serif;
+        h1 {
+          font-family: 'Satisfy', cursive;
           text-align: center
+        }
+        p {
+          font-family: 'Lato', sans-serif;
         }
       `}</style>
       <h1>About Me</h1>
