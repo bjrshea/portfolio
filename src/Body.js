@@ -2,6 +2,7 @@ import React from 'react';
 import github from './assets/images/github.svg'
 import linkedin from './assets/images/linkedin.svg'
 import mountains from './assets/images/mountains.png';
+import ufo from './assets/images/ufo.svg';
 import cloud from './assets/images/cloud.png';
 import balloon1 from './assets/images/balloon1.svg';
 import balloon2 from './assets/images/balloon2.svg';
@@ -12,6 +13,14 @@ function Body() {
     <div id="body-box">
       <style>{`
         #body-box {
+        }
+        #ufo {
+          position: absolute;
+          left: -180px;
+          z-index: -2;
+          width: auto;
+          height: 5%;
+          animation: blow 8s linear infinite forwards 70s;
         }
         .cloud {
           position: absolute;
@@ -128,8 +137,8 @@ function Body() {
           to{bottom: 100%}
         }
       `}</style>
-      <div className="clouds">
-        <img className="cloud" src={cloud} alt="cloud"/>
+      <div id="sky">
+        <img id="ufo" src={ufo} alt="ufo"/>
         <img className="cloud" src={cloud} alt="cloud"/>
         <img className="cloud" src={cloud} alt="cloud"/>
         <img className="cloud" src={cloud} alt="cloud"/>

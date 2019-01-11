@@ -28,7 +28,7 @@ function About() {
         }
       `}</style>
       <div id="about-page-box">
-        <h1 id="about-header">About</h1>
+        <h1 id="about-header">About Me</h1>
         <img id="briefcase" src={about} alt="Picture of briefcase"/>
       </div>
       <br/>

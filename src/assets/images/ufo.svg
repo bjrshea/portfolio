@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2695px" height="1839px" viewBox="0 0 2695 1839" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 26</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-26" transform="translate(1348.000000, 1007.000000) rotate(-5.000000) translate(-1348.000000, -1007.000000) translate(-218.000000, -288.000000)">
+            <g id="Group-23" transform="translate(1566.000000, 1295.000000) rotate(-1.000000) translate(-1566.000000, -1295.000000) translate(22.000000, 27.000000)">
+                <path d="M1393.49951,1928.99559 C1813.67592,1928.99559 2140.79963,1853.57243 2140.79963,1560.58797 C2140.79963,1267.60351 1800.17935,1030.09268 1380.00293,1030.09268 C959.826519,1030.09268 619.206235,1267.60351 619.206235,1560.58797 C619.206235,1853.57243 973.323093,1928.99559 1393.49951,1928.99559 Z" id="Oval-12" fill="#E9C35E" transform="translate(1380.002932, 1479.544134) scale(1, -1) rotate(-35.000000) translate(-1380.002932, -1479.544134) "></path>
+                <ellipse id="Oval-11" fill="#489B94" transform="translate(1543.605846, 1267.712238) rotate(33.000000) translate(-1543.605846, -1267.712238) " cx="1543.60585" cy="1267.71224" rx="1485.313" ry="547"></ellipse>
+                <path d="M1781.34318,1331.75274 C2201.51959,1331.75274 2528.6433,1256.32958 2528.6433,963.345119 C2528.6433,670.360662 2188.02302,432.849831 1767.8466,432.849831 C1347.67019,432.849831 1007.04991,670.360662 1007.04991,963.345119 C1007.04991,1256.32958 1361.16676,1331.75274 1781.34318,1331.75274 Z" id="Oval-12" fill="#3F4A52" transform="translate(1767.846603, 882.301284) rotate(33.000000) translate(-1767.846603, -882.301284) "></path>
+                <path d="M2023,553.001107 C2096.15301,443.730255 2159.60093,380.016713 2213.34375,361.860482 C2267.08657,343.70425 2352.87303,357.001125 2470.70312,401.751107" id="Path-15" stroke="#3F4A52" stroke-width="24"></path>
+                <circle id="Oval-14" fill="#E9C35E" cx="2471" cy="415" r="61"></circle>
+            </g>
+            <g id="Group-25" transform="translate(380.000000, 539.000000)" fill="#D8D8D8" stroke="#979797">
+                <g id="Group-24">
+                    <circle id="Oval-13" cx="41.5" cy="41.5" r="41.5"></circle>
+                    <circle id="Oval-13" cx="82.5" cy="162.5" r="41.5"></circle>
+                    <circle id="Oval-13" cx="141.5" cy="273.5" r="41.5"></circle>
+                    <circle id="Oval-13" cx="204.5" cy="380.5" r="41.5"></circle>
+                </g>
+                <g id="Group-22" transform="translate(2052.142612, 1523.674219) rotate(-58.000000) translate(-2052.142612, -1523.674219) translate(1911.142612, 1294.674219)">
+                    <circle id="Oval-13" transform="translate(59.500000, 59.500000) rotate(-46.000000) translate(-59.500000, -59.500000) " cx="59.5" cy="59.5" r="41.5"></circle>
+                    <circle id="Oval-13" transform="translate(100.500000, 180.500000) rotate(-46.000000) translate(-100.500000, -180.500000) " cx="100.5" cy="180.5" r="41.5"></circle>
+                    <circle id="Oval-13" transform="translate(159.500000, 291.500000) rotate(-46.000000) translate(-159.500000, -291.500000) " cx="159.5" cy="291.5" r="41.5"></circle>
+                    <circle id="Oval-13" transform="translate(222.500000, 398.500000) rotate(-46.000000) translate(-222.500000, -398.500000) " cx="222.5" cy="398.5" r="41.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
