@@ -64,7 +64,7 @@ function Portfolio() {
           background-color: transparent;
           border: 1px solid #DC9E82;
           color: #DC9E82;
-          width: 15%;
+          width: 22%;
           margin: 5% 0 0 5%;
         }
         button:hover {
@@ -99,8 +99,8 @@ function Portfolio() {
           <h1 className="titles" >Howl</h1>
           <p>One of my first introductions to an MVC framework! Howl is your one-stop shop for finding concerts, previewing artists, and booking tickets. This app is built using Angular and leverages mutliple API calls to dynamically diplay concert details and artist's songs.</p>
           <div className="buttons">
-            <button>VISIT GITHUB</button>
-            <button>SEE WEBSITE</button>
+            <a href="https://github.com/bjrshea/howl"><button>VISIT GITHUB</button></a>
+            <a href="https://howl-concert-app.firebaseapp.com/"><button>SEE WEBSITE</button></a>
           </div>
         </div>
         <div className="images">
@@ -115,7 +115,7 @@ function Portfolio() {
           <h1 className="titles" >Squeeze Burger</h1>
           <p>A food truck locater for the Guy Fieri approved Squeeze Burger. This app was built in React-Redux to help the owners of Squeeze Burger let their customers know where the food truck will be on a given day. This app utilizes multiple API calls, Firebase OAuth, and EmailJS for client booking requests.</p>
           <div className="buttons">
-            <button>VISIT GITHUB</button>
+            <a href="https://github.com/bjrshea/squeeze-burger"><button>VISIT GITHUB</button></a>
             <button className="TBA">COMING ONLINE SOON</button>
           </div>
         </div>
@@ -125,7 +125,7 @@ function Portfolio() {
           <h1 className="titles" >The Remoter</h1>
           <p>An app for a pseudo co-working space that I built during my learning UX/UI in programming school. The Remoter takes you on a journey through the entire web design process — from the beginning stages of wireframing and prototyping all the way to development.</p>
           <div className="buttons">
-            <button>VISIT GITHUB</button>
+            <a href="https://github.com/bjrshea/the-remoter"><button>VISIT GITHUB</button></a>
             <button className="TBA">COMING ONLINE SOON</button>
           </div>
         </div>
