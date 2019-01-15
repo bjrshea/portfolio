@@ -80,7 +80,7 @@ function Portfolio() {
           color: #B7B5B3;
         }
         .TBA:hover {
-          cursor: default;
+          cursor: not-allowed;
           color: #B7B5B3;
           background-color: transparent;
         }
