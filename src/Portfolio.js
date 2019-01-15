@@ -33,7 +33,7 @@ function Portfolio() {
           display: flex;
           justify-content: space-between;
           margin: 2% 0;
-          border-bottom: 1px solid #B7B5B3;
+          border-bottom: 2px solid #B7B5B3;
         }
         #project-1 {
 

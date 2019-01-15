@@ -14,6 +14,9 @@ function Body() {
       <style>{`
         #body-box {
         }
+        #sky {
+          overflow: hidden;
+        }
         #ufo {
           position: absolute;
           top: 10%;
