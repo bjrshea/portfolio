@@ -32,13 +32,20 @@ function About() {
           justify-content: space-between;
         }
         #summary {
-          width: 45%;
+          width: 50%;
+          margin: auto;
+          padding: 10px;
         }
         #collage-box {
-          width: 45%;
+          width: 50%;
+          margin-right: 2.5%;
         }
         p {
           font-family: 'Lato', serif;
+          font-size: 1rem;
+          margin-left: 5%;
+          margin-right: 8%;
+          line-height: 1.6;
         }
         #collage {
           display: block;
