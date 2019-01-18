@@ -27,18 +27,23 @@ function About() {
           height: auto;
           width: 20%;
         }
+        #about-section {
+          display: flex;
+          justify-content: space-between;
+        }
         #summary {
-          width: 50%;
+          width: 45%;
+        }
+        #collage-box {
+          width: 45%;
         }
         p {
           font-family: 'Lato', serif;
         }
         #collage {
           display: block;
-          margin-left: auto;
-        	margin-right: auto;
+          width: 100%;
           height: auto;
-          width: 40%;
         }
       `}</style>
       <div>
@@ -47,7 +52,7 @@ function About() {
         <h1 id="about-header">About Me</h1>
         <img id="picture" src={about} alt="Picture of briefcase"/>
       </div>
-      <div id="about">
+      <div id="about-section">
         <div id="summary">
           <p>We're in an age where over 55% of world's population has access to the internet (woah!). That 55% can range from your average teenager, your parents, your parent's parents, people with disabilities, etc. For that reason, I think it's a developer's duty to make websites that are easy to understand and effortless to use. I believe in a minimalistic approach not only asthetically, but also informatively.</p>
           <br/>

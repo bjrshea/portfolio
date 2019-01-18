@@ -35,9 +35,6 @@ function Portfolio() {
           margin: 2% 0;
           border-bottom: 2px solid #B7B5B3;
         }
-        #project-1 {
-
-        }
         #project-3 {
           border-bottom: none;
         }
