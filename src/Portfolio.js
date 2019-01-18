@@ -113,7 +113,7 @@ function Portfolio() {
         </div>
         <div className="description">
           <h1 className="titles" >Squeeze Burger</h1>
-          <p>A food truck locater for the Guy Fieri approved Squeeze Burger. This app was built in React-Redux to help the owners of Squeeze Burger let their customers know where the food truck will be on a given day. This app utilizes multiple API calls, Firebase OAuth, and EmailJS for client booking requests.</p>
+          <p>A food truck locater for the Guy Fieri approved Squeeze Burger. This app was built using React-Redux to help the owners of Squeeze Burger let their customers know where the food truck will be on a given day. This app utilizes multiple API calls, Firebase OAuth, and EmailJS for client booking requests.</p>
           <div className="buttons">
             <a href="https://github.com/bjrshea/squeeze-burger"><button>VISIT GITHUB</button></a>
             <button className="TBA">COMING ONLINE SOON</button>
@@ -123,7 +123,7 @@ function Portfolio() {
       <div className="projects" id="project-3">
         <div className="description">
           <h1 className="titles" >The Remoter</h1>
-          <p>An app for a pseudo co-working space that I built during my learning UX/UI in programming school. The Remoter takes you on a journey through the entire web design process — from the beginning stages of wireframing and prototyping all the way to development.</p>
+          <p>An app for a pseudo co-working space that I built during programming school. The Remoter takes you on a journey through the entire web design process — from the beginning stages of wireframing and prototyping all the way to development. Check out my Github for a more in-depth look into my creative process!</p>
           <div className="buttons">
             <a href="https://github.com/bjrshea/the-remoter"><button>VISIT GITHUB</button></a>
             <button className="TBA">COMING ONLINE SOON</button>
