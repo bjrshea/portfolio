@@ -12,8 +12,6 @@ function Body() {
   return(
     <div id="body-box">
       <style>{`
-        #body-box {
-        }
         #sky {
           overflow: hidden;
         }
