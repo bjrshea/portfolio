@@ -3,6 +3,7 @@ import Header from './Header';
 import Body from './Body';
 import About from './About';
 import Portfolio from './Portfolio';
+import Mobile from './Mobile';
 import WebFont from 'webfontloader';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 WebFont.load({
@@ -20,6 +21,7 @@ class App extends Component {
           <Route exact path="/" component={Body} />
           <Route exact path="/about" component={About} />
           <Route exact path="/portfolio" component={Portfolio} />
+          <Mobile/>
         </div>
       </Router>
     );

@@ -138,6 +138,11 @@ function Body() {
           from{bottom: -40px}
           to{bottom: 100%}
         }
+        @media only screen and (max-width: 600px) {
+          #intro-box, #sky, #mountains {
+            display: none;
+          }
+        }
       `}</style>
       <div id="sky">
         <img id="ufo" src={ufo} alt="ufo"/>

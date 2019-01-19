@@ -51,6 +51,11 @@ function Header() {
           cursor: pointer;
           color: #798190;
         }
+        @media only screen and (max-width: 600px) {
+          #header-box {
+            display: none;
+          }
+        }
       `}</style>
       <div id="header-left">
         <Link to="/"><img id="home-button" src={home} alt="Home button"/></Link>
