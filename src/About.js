@@ -8,6 +8,7 @@ function About() {
       <style>{`
         #about-box {
           margin-top: 3%;
+          margin-bottom: 3%;
         }
         #about-page-box {
           height: 70vh;
@@ -52,6 +53,10 @@ function About() {
           width: 100%;
           height: auto;
         }
+        #drop-line {
+          font-weight: bold;
+          color: #E3753D;
+        }
       `}</style>
       <div>
       </div>
@@ -67,7 +72,7 @@ function About() {
           <br/>
           <p>In my spare time, I love to ski, hike, camp, and do anything else that includes my dogs. I live in the Pacific Northwest, and I'm convinced that it's the most beautiful place in the world. Not to mention, it's a great place to find inspiration.</p>
           <br/>
-          <p>If you're interested in collaborating on a project, talking about code, or anything else, feel free to drop me a line through one of the links below!</p>
+          <p>If you're interested in collaborating on a project, talking about code, or anything else, feel free to <a href="https://www.linkedin.com/in/brendanjshea/"><span id="drop-line">drop me a line</span></a>!</p>
         </div>
         <div id="collage-box">
           <img id="collage" src={collage} alt="Collage of photos of me and my dog"/>
